@@ -8,7 +8,7 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const { name, email, password, role } = body;
-
+// daklfnaslfnalfalkfnaln
     // Validate input
     if (!name || !email || !password || !role) {
       return NextResponse.json(
